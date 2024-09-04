@@ -1,0 +1,49 @@
+@media (max-width: 768px) {
+
+    .overlay-page {
+        width: 90%;
+        margin-top: 100px;
+        padding-bottom: 100px;
+
+    }
+
+    .overlay-page img{
+        width: 260px;
+        height: 260px;
+        padding-top: 80px;
+    }
+
+    .start-page-text {
+        margin-top: 80px;
+    }
+    .start-page-text h1{
+        font-size: 28px;
+    }    
+    .start-page-text h2{
+        font-size: 16px;
+        font-family: 'Righteous', cursive;
+        font-weight: 400;
+        padding-left: 30px;
+    }
+
+    .start-area button {
+        width: 120px;
+        height: 60px;
+        font-size: 18px;
+    }
+
+    .arrow-right,
+    .arrow-left {
+    width: 70px;
+    animation: swing 2s infinite;
+    position: absolute;
+}
+
+.arrow-right {
+    right: 130px;
+}
+
+.arrow-left {
+    left: 130px;
+}
+}
